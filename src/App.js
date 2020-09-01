@@ -20,10 +20,10 @@ export default class App extends React.Component{
   }
   render(){
     return(
-      <div >
-        <h2 style={{color:"red"}}>Covid-19 Tracker Statewise In India</h2>
+      <div>
+        <h5 style={{color:"red"}}>Covid-19 Tracker Statewise In India</h5>
         <table border="1" cellPadding="5px">
-          <thead style={{color:"purple",backgroundColor:"darkgoldenrod"}}>
+          <thead style={{color:"purple",backgroundColor:"darkgoldenrod",textAlign:"center"}}>
             <tr>
             <th>State Name</th>
             <th>Active</th>
@@ -33,7 +33,7 @@ export default class App extends React.Component{
             <th>Lastupdated Time</th>
             </tr>
           </thead>
-          <tbody style={{backgroundColor:"black"}}>
+          <tbody style={{backgroundColor:"black",textAlign:"center"}}>
            
             {this.state.covid.map((element,index)=>(
                <tr>
