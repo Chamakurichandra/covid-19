@@ -20,7 +20,7 @@ export default class App extends React.Component{
   }
   render(){
     return(
-      <div style={{textAlign:"center",margin:"0 20em"}}>
+      <div style={{textAlign:"center"}}>
         <h2 style={{color:"red",textAlign:"center"}}>Covid-19 Tracker Statewise In India</h2>
         <table border="1" cellPadding="5px">
           <thead style={{color:"purple",backgroundColor:"darkgoldenrod"}}>
