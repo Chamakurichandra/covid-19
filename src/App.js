@@ -21,7 +21,7 @@ export default class App extends React.Component{
   render(){
     return(
       <div>
-        <h5 style={{color:"red"}}>Covid-19 Tracker Statewise In India</h5>
+        <h5 style={{color:"red",margin:"1em 2em"}}>Covid-19 Tracker Statewise In India</h5>
         <table border="1" cellPadding="5px">
           <thead style={{color:"purple",backgroundColor:"darkgoldenrod",textAlign:"center"}}>
             <tr>
